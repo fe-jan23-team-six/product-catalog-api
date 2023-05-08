@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsx",
     "start": "nodemon ./src/server.ts",
     "lint": "eslint . --ignore-path .gitignore",
     "prepare": "husky install"
