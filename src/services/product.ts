@@ -11,6 +11,13 @@ export async function getAll(): Promise<WithId<IProductMain>[]> {
   return products;
 }
 
+export async function getById(id: number) {
+  const product = await Product.findByPk(id);
+
+  return product;
+}
+
 export default {
   getAll,
+  getById,
 };
