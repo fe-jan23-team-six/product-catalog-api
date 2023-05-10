@@ -19,5 +19,14 @@
         "@typescript-eslint"
     ],
     "rules": {
+      "no-shadow": [
+        "error",
+        {
+          "builtinGlobals": false,
+          "hoist": "functions",
+          "allow": [],
+          "ignoreOnInitialization": false
+        }
+      ]
     }
 }
