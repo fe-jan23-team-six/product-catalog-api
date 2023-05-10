@@ -1,4 +1,3 @@
-// Execution: ts-node --esm ./src/db/sync.ts
 import { initDb } from './init';
 import { Product } from '../models/Product';
 import fs from 'fs';

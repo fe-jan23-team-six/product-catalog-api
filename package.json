@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "nodemon ./src/server.ts",
+    "sync": "ts-node --esm ./src/db/sync.ts",
     "lint": "eslint . --ignore-path .gitignore",
     "prepare": "husky install"
   },
