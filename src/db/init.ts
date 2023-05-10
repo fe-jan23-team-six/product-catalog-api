@@ -1,7 +1,11 @@
 import { Sequelize } from 'sequelize-typescript';
+import { Product } from '../models/Product';
 
 export const initDb = async() => {
   const sequelize = new Sequelize('postgres', 'postgres', '133043', {
+    models: [
+      Product,
+    ],
     host: 'localhost',
     dialect: 'postgres',
     logging: false,

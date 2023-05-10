@@ -1,30 +1,20 @@
-// import express from 'express';
-// import fs from 'fs';
-// import { Device } from './types';
+import express from 'express';
+import { router as productRouter } from './routes/product';
+import { initDb } from './db/init';
 
-// const PORT = 4000;
-// const DEVICES_ENDPOINT = '/devices';
+const PORT = 4000;
+const RPODUCTS_ENDPOINT = '/products';
 
-// const server = express();
+const server = express();
 
-// const devices: Device[] = [];
+initDb();
 
-// fs.readFile('./src/devices.json', 'utf8', (err, data) => {
-//   if (err) {
-//     global.console.error(err);
+server.listen(4000, () => {
+  global.console.log(`Server is running on PORT = ${PORT}`);
+});
 
-//     return;
-//   }
-
-//   devices.push(...JSON.parse(data));
-
-//   global.console.log(devices);
-// });
-
-// server.listen(4000, () => {
-//   global.console.log(`Server is running on PORT = ${PORT}`);
-// });
+server.use(RPODUCTS_ENDPOINT, express.json(), productRouter);
 
 // server.get(DEVICES_ENDPOINT, (req, res) => {
-//   res.send(devices);
+//   res.send(products);
 // });
