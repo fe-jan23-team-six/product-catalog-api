@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import { router as productRouter } from './routes/product.js';
 import { initDb } from './db/init';
 
@@ -7,6 +8,8 @@ const RPODUCTS_ENDPOINT = '/products';
 
 const server = express();
 
+server.use(cors());
+
 initDb();
 
 server.listen(4000, () => {
@@ -14,7 +17,3 @@ server.listen(4000, () => {
 });
 
 server.use(RPODUCTS_ENDPOINT, express.json(), productRouter);
-
-// server.get(DEVICES_ENDPOINT, (req, res) => {
-//   res.send(products);
-// });
