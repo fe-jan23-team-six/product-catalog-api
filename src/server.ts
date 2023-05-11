@@ -1,5 +1,5 @@
 import express from 'express';
-import { router as productRouter } from './routes/product';
+import { router as productRouter } from './routes/product.js';
 import { initDb } from './db/init';
 
 const PORT = 4000;
