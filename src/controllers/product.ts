@@ -1,9 +1,17 @@
 import { Request, Response } from 'express';
 
 import productService from '../services/product';
+import { SortBy } from '../types/SortBy';
 
 export const getAll = async(req: Request, res: Response) => {
-  const products = await productService.getAll();
+  const {
+    page = 1,
+    limit = 16,
+    sort = SortBy.Default,
+  } = req.query;
+
+  const products = await productService
+    .getSrtuctured(+page, +limit, sort as SortBy);
 
   res.send(products);
 };
@@ -27,7 +35,24 @@ export const getOne = async(req: Request, res: Response) => {
 
   res.send(foundProduct);
 };
+
+export const getNew = async(req: Request, res: Response) => {
+  const { limit = 10 } = req.query;
+  const products = await productService.getNew(+limit);
+
+  return res.send(products);
+};
+
+export const getProductsWithDiscounts = async(req: Request, res: Response) => {
+  const { limit = 10 } = req.query;
+  const products = await productService.getProductsWithDiscounts(+limit);
+
+  return res.send(products);
+};
+
 export default {
   getAll,
   getOne,
+  getNew,
+  getProductsWithDiscounts,
 };
