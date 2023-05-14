@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 
 import productService from '../services/product';
 import { SortBy } from '../types/SortBy';
@@ -16,16 +16,34 @@ export const getAll = async(req: Request, res: Response) => {
   res.send(products);
 };
 
-export const getOne = async(req: Request, res: Response) => {
+export const getOne = async(
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
   const productId = Number(req.params.productId);
 
   if (isNaN(productId)) {
-    res.sendStatus(400);
+    next();
 
     return;
   }
 
   const foundProduct = await productService.getById(productId);
+
+  if (!foundProduct) {
+    res.sendStatus(404);
+
+    return;
+  }
+
+  res.send(foundProduct);
+};
+
+export const getOneBySlug = async(req: Request, res: Response) => {
+  const { productSlug } = req.params;
+
+  const [foundProduct] = await productService.getBySlug(productSlug);
 
   if (!foundProduct) {
     res.sendStatus(404);
@@ -53,6 +71,7 @@ export const getProductsWithDiscounts = async(req: Request, res: Response) => {
 export default {
   getAll,
   getOne,
+  getOneBySlug,
   getNew,
   getProductsWithDiscounts,
 };

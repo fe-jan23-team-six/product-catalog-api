@@ -46,6 +46,14 @@ export async function getById(id: number) {
   return Product.findByPk(id);
 }
 
+export async function getBySlug(slug: string) {
+  return Product.findAll({
+    where: {
+      slug,
+    },
+  });
+}
+
 export const getNew = (limit: number) => {
   return Product.findAll({
     limit,
@@ -69,6 +77,7 @@ export const getProductsWithDiscounts = async(limit: number) => {
 export default {
   getSrtuctured,
   getById,
+  getBySlug,
   getNew,
   getProductsWithDiscounts,
 };
