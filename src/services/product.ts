@@ -3,6 +3,10 @@ import { SortBy } from '../types/SortBy';
 import { OrderItem } from 'sequelize';
 import { getDiscountPercent } from '../utils/helpers';
 
+export async function getAll() {
+  return Product.findAll();
+}
+
 export async function getSrtuctured(
   page: number,
   limit: number,
@@ -75,6 +79,7 @@ export const getProductsWithDiscounts = async(limit: number) => {
 };
 
 export default {
+  getAll,
   getSrtuctured,
   getById,
   getBySlug,
