@@ -3,6 +3,12 @@ import { NextFunction, Request, Response } from 'express';
 import productService from '../services/product';
 import { SortBy } from '../types/SortBy';
 
+export const getAllAmount = async(req: Request, res: Response) => {
+  const products = await productService.getAll();
+
+  res.send({ 'amount': `${products.length}` });
+};
+
 export const getAll = async(req: Request, res: Response) => {
   const {
     page = 1,
@@ -69,6 +75,7 @@ export const getProductsWithDiscounts = async(req: Request, res: Response) => {
 };
 
 export default {
+  getAllAmount,
   getAll,
   getOne,
   getOneBySlug,
