@@ -9,6 +9,7 @@ const RPODUCTS_ENDPOINT = '/products';
 const server = express();
 
 server.use(cors());
+server.use(express.static('public'));
 
 initDb();
 
