@@ -14,8 +14,9 @@ export class Product extends Model {
   @AllowNull(false)
   @Column({
     type: DataTypes.STRING,
+    primaryKey: true,
   })
-    slug: string;
+    id: string;
 
   @AllowNull(false)
   @Column({
@@ -119,13 +120,13 @@ export class Product extends Model {
   })
     processor: string;
 
-  @AllowNull(false)
+  @AllowNull(true)
   @Column({
     type: DataTypes.STRING,
   })
     camera: string;
 
-  @AllowNull(false)
+  @AllowNull(true)
   @Column({
     type: DataTypes.STRING,
   })

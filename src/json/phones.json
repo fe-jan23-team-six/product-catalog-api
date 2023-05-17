@@ -1,6 +1,6 @@
 [
   {
-    "slug": "apple-iphone-7-32gb-black",
+    "id": "apple-iphone-7-32gb-black",
     "namespaceId": "apple-iphone-7",
     "category": "phones",
     "name": "Apple iPhone 7 32GB Black",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-plus-32gb-black",
+    "id": "apple-iphone-7-plus-32gb-black",
     "namespaceId": "apple-iphone-7-plus",
     "category": "phones",
     "name": "Apple iPhone 7 Plus 32GB Black",
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-8-64gb-gold",
+    "id": "apple-iphone-8-64gb-gold",
     "namespaceId": "apple-iphone-8",
     "category": "phones",
     "name": "Apple iPhone 8 64GB Gold",
@@ -187,7 +187,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-64gb-black",
+    "id": "apple-iphone-11-64gb-black",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 64GB Black",
@@ -254,7 +254,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-128gb-yellow",
+    "id": "apple-iphone-11-128gb-yellow",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 128GB Yellow",
@@ -321,7 +321,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-256gb-green",
+    "id": "apple-iphone-11-256gb-green",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 256GB Green",
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-64gb-gold",
+    "id": "apple-iphone-11-pro-64gb-gold",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 64GB Gold",
@@ -451,7 +451,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-256gb-midnightgreen",
+    "id": "apple-iphone-11-pro-256gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 256GB Midnight green",
@@ -515,7 +515,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-512gb-silver",
+    "id": "apple-iphone-11-pro-512gb-silver",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 512GB Silver",
@@ -578,7 +578,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-64gb-spacegray",
+    "id": "apple-iphone-11-pro-max-64gb-spacegray",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 64GB Spacegray",
@@ -641,7 +641,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-256gb-gold",
+    "id": "apple-iphone-11-pro-max-256gb-gold",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 256GB Gold",
@@ -704,7 +704,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-512gb-spacegray",
+    "id": "apple-iphone-11-pro-max-512gb-spacegray",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 512GB Spacegray",
@@ -767,7 +767,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-64gb-red",
+    "id": "apple-iphone-xr-64gb-red",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 64GB Red",
@@ -831,7 +831,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-128gb-white",
+    "id": "apple-iphone-xr-128gb-white",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 128GB White",
@@ -895,7 +895,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-64gb-spacegray",
+    "id": "apple-iphone-xs-64gb-spacegray",
     "namespaceId": "apple-iphone-xs",
     "category": "phones",
     "name": "Apple iPhone XS 64GB Spacegray",
@@ -957,7 +957,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-max-64gb-gold",
+    "id": "apple-iphone-xs-max-64gb-gold",
     "namespaceId": "apple-iphone-xs-max",
     "category": "phones",
     "name": "Apple iPhone XS Max 64GB Gold",
@@ -1020,7 +1020,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-max-256gb-silver",
+    "id": "apple-iphone-xs-max-256gb-silver",
     "namespaceId": "apple-iphone-xs-max",
     "category": "phones",
     "name": "Apple iPhone XS Max 256GB Silver",
@@ -1083,7 +1083,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-32gb-gold",
+    "id": "apple-iphone-7-32gb-gold",
     "namespaceId": "apple-iphone-7",
     "category": "phones",
     "name": "Apple iPhone 7 32GB Gold",
@@ -1146,7 +1146,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-plus-32gb-silver",
+    "id": "apple-iphone-7-plus-32gb-silver",
     "namespaceId": "apple-iphone-7-plus",
     "category": "phones",
     "name": "Apple iPhone 7 Plus 32GB Silver",
@@ -1209,7 +1209,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-8-64gb-spacegray",
+    "id": "apple-iphone-8-64gb-spacegray",
     "namespaceId": "apple-iphone-8",
     "category": "phones",
     "name": "Apple iPhone 8 64GB Space Gray",
@@ -1270,7 +1270,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-64gb-green",
+    "id": "apple-iphone-11-64gb-green",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 64GB Green",
@@ -1337,7 +1337,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-128gb-purple",
+    "id": "apple-iphone-11-128gb-purple",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 128GB Purple",
@@ -1404,7 +1404,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-256gb-yellow",
+    "id": "apple-iphone-11-256gb-yellow",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 256GB Yellow",
@@ -1471,7 +1471,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-256gb-gold",
+    "id": "apple-iphone-11-pro-256gb-gold",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 256GB Gold",
@@ -1534,7 +1534,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-512gb-spacegray",
+    "id": "apple-iphone-11-pro-512gb-spacegray",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 512GB Spacegray",
@@ -1597,7 +1597,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-64gb-silver",
+    "id": "apple-iphone-11-pro-max-64gb-silver",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 64GB Silver",
@@ -1660,7 +1660,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-256gb-midnightgreen",
+    "id": "apple-iphone-11-pro-max-256gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 256GB Midnightgreen",
@@ -1723,7 +1723,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-512gb-silver",
+    "id": "apple-iphone-11-pro-max-512gb-silver",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 512GB Silver",
@@ -1786,7 +1786,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-64gb-white",
+    "id": "apple-iphone-xr-64gb-white",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 64GB White",
@@ -1850,7 +1850,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-128gb-coral",
+    "id": "apple-iphone-xr-128gb-coral",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 128GB Coral",
@@ -1914,7 +1914,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-64gb-gold",
+    "id": "apple-iphone-xs-64gb-gold",
     "namespaceId": "apple-iphone-xs",
     "category": "phones",
     "name": "Apple iPhone XS 64GB Gold",
@@ -1976,7 +1976,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-256gb-spacegray",
+    "id": "apple-iphone-xs-256gb-spacegray",
     "namespaceId": "apple-iphone-xs",
     "category": "phones",
     "name": "Apple iPhone XS 256GB Spacegray",
@@ -2038,7 +2038,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-max-64gb-silver",
+    "id": "apple-iphone-xs-max-64gb-silver",
     "namespaceId": "apple-iphone-xs-max",
     "category": "phones",
     "name": "Apple iPhone XS Max 64GB Silver",
@@ -2101,7 +2101,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-max-256gb-gold",
+    "id": "apple-iphone-xs-max-256gb-gold",
     "namespaceId": "apple-iphone-xs-max",
     "category": "phones",
     "name": "Apple iPhone XS Max 256GB Gold",
@@ -2164,7 +2164,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-32gb-rosegold",
+    "id": "apple-iphone-7-32gb-rosegold",
     "namespaceId": "apple-iphone-7",
     "category": "phones",
     "name": "Apple iPhone 7 32GB Rosegold",
@@ -2227,7 +2227,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-64gb-purple",
+    "id": "apple-iphone-11-64gb-purple",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 64GB Purple",
@@ -2294,7 +2294,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-64gb-red",
+    "id": "apple-iphone-11-64gb-red",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 64GB Red",
@@ -2361,7 +2361,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-128gb-black",
+    "id": "apple-iphone-11-128gb-black",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 128GB Black",
@@ -2428,7 +2428,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-256gb-red",
+    "id": "apple-iphone-11-256gb-red",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 256GB Red",
@@ -2495,7 +2495,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-64gb-midnightgreen",
+    "id": "apple-iphone-11-pro-64gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 64GB Midnight green",
@@ -2559,7 +2559,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-256gb-silver",
+    "id": "apple-iphone-11-pro-256gb-silver",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 256GB Silver",
@@ -2622,7 +2622,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-512gb-gold",
+    "id": "apple-iphone-11-pro-512gb-gold",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 512GB Gold",
@@ -2685,7 +2685,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-64gb-midnightgreen",
+    "id": "apple-iphone-11-pro-max-64gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 64GB Midnightgreen",
@@ -2748,7 +2748,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-256gb-spacegray",
+    "id": "apple-iphone-11-pro-max-256gb-spacegray",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 256GB Spacegray",
@@ -2811,7 +2811,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-64gb-coral",
+    "id": "apple-iphone-xr-64gb-coral",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 64GB Coral",
@@ -2873,7 +2873,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-128gb-red",
+    "id": "apple-iphone-xr-128gb-red",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 128GB Red",
@@ -2937,7 +2937,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-256gb-gold",
+    "id": "apple-iphone-xs-256gb-gold",
     "namespaceId": "apple-iphone-xs",
     "category": "phones",
     "name": "Apple iPhone XS 256GB Gold",
@@ -2999,7 +2999,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-max-64gb-spacegray",
+    "id": "apple-iphone-xs-max-64gb-spacegray",
     "namespaceId": "apple-iphone-xs-max",
     "category": "phones",
     "name": "Apple iPhone XS Max 64GB Spacegray",
@@ -3062,7 +3062,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-plus-32gb-rosegold",
+    "id": "apple-iphone-7-plus-32gb-rosegold",
     "namespaceId": "apple-iphone-7-plus",
     "category": "phones",
     "name": "Apple iPhone 7 Plus 32GB Rosegold",
@@ -3125,7 +3125,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-64gb-white",
+    "id": "apple-iphone-11-64gb-white",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 64GB White",
@@ -3192,7 +3192,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-128gb-green",
+    "id": "apple-iphone-11-128gb-green",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 128GB Green",
@@ -3259,7 +3259,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-128gb-white",
+    "id": "apple-iphone-11-128gb-white",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 128GB White",
@@ -3326,7 +3326,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-256gb-black",
+    "id": "apple-iphone-11-256gb-black",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 256GB Black",
@@ -3393,7 +3393,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-256gb-white",
+    "id": "apple-iphone-11-256gb-white",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 256GB White",
@@ -3460,7 +3460,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-64gb-spacegray",
+    "id": "apple-iphone-11-pro-64gb-spacegray",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 64GB Spacegray",
@@ -3523,7 +3523,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-512gb-midnightgreen",
+    "id": "apple-iphone-11-pro-512gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 512GB Midnight green",
@@ -3587,7 +3587,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-64gb-gold",
+    "id": "apple-iphone-11-pro-max-64gb-gold",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 64GB Gold",
@@ -3650,7 +3650,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-256gb-silver",
+    "id": "apple-iphone-11-pro-max-256gb-silver",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 256GB Silver",
@@ -3713,7 +3713,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-512gb-midnightgreen",
+    "id": "apple-iphone-11-pro-max-512gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 512GB Midnightgreen",
@@ -3776,7 +3776,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-128gb-yellow",
+    "id": "apple-iphone-xr-128gb-yellow",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 128GB Yellow",
@@ -3840,7 +3840,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-32gb-silver",
+    "id": "apple-iphone-7-32gb-silver",
     "namespaceId": "apple-iphone-7",
     "category": "phones",
     "name": "Apple iPhone 7 32GB Silver",
@@ -3903,7 +3903,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-256gb-purple",
+    "id": "apple-iphone-11-256gb-purple",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 256GB Purple",
@@ -3970,7 +3970,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-max-512gb-gold",
+    "id": "apple-iphone-11-pro-max-512gb-gold",
     "namespaceId": "apple-iphone-11-pro-max",
     "category": "phones",
     "name": "Apple iPhone 11 Pro Max 512GB Gold",
@@ -4033,7 +4033,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-64gb-yellow",
+    "id": "apple-iphone-11-64gb-yellow",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 64GB Yellow",
@@ -4100,7 +4100,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-256gb-spacegray",
+    "id": "apple-iphone-11-pro-256gb-spacegray",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 256GB Spacegray",
@@ -4163,7 +4163,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-8-64gb-silver",
+    "id": "apple-iphone-8-64gb-silver",
     "namespaceId": "apple-iphone-8",
     "category": "phones",
     "name": "Apple iPhone 8 64GB Silver",
@@ -4224,7 +4224,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-128gb-red",
+    "id": "apple-iphone-11-128gb-red",
     "namespaceId": "apple-iphone-11",
     "category": "phones",
     "name": "Apple iPhone 11 128GB Red",
@@ -4291,7 +4291,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xs-max-256gb-spacegray",
+    "id": "apple-iphone-xs-max-256gb-spacegray",
     "namespaceId": "apple-iphone-xs-max",
     "category": "phones",
     "name": "Apple iPhone XS Max 256GB Spacegray",
@@ -4354,7 +4354,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-7-plus-32gb-gold",
+    "id": "apple-iphone-7-plus-32gb-gold",
     "namespaceId": "apple-iphone-7-plus",
     "category": "phones",
     "name": "Apple iPhone 7 Plus 32GB Gold",
@@ -4417,7 +4417,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-11-pro-64gb-silver",
+    "id": "apple-iphone-11-pro-64gb-silver",
     "namespaceId": "apple-iphone-11-pro",
     "category": "phones",
     "name": "Apple iPhone 11 Pro 64GB Silver",
@@ -4480,7 +4480,7 @@
     ]
   },
   {
-    "slug": "apple-iphone-xr-64gb-yellow",
+    "id": "apple-iphone-xr-64gb-yellow",
     "namespaceId": "apple-iphone-xr",
     "category": "phones",
     "name": "Apple iPhone XR 64GB Yellow",

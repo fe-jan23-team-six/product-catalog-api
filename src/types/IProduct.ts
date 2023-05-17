@@ -1,7 +1,7 @@
 import { IDescription } from './IDescription';
 
 export interface IProduct {
-  slug: string,
+  id: string,
   namespaceId: string,
   category: string,
   name: string,

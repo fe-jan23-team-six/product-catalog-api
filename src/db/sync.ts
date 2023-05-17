@@ -1,13 +1,14 @@
+import fs from 'fs';
 import { initDb } from './init';
 import { Product } from '../models/Product';
-import fs from 'fs';
+import { IProduct } from '../types/IProduct';
 
 const DATA_LOCATION = new URL('../json/phones.json', import.meta.url);
 
 const syncDb = async() => {
   global.console.log('START');
 
-  const products = JSON.parse(
+  const products: Readonly<IProduct>[] = JSON.parse(
     fs.readFileSync(DATA_LOCATION, 'utf8'),
   );
 
