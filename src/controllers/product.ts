@@ -28,7 +28,7 @@ export const getOne = async(
 };
 
 export const getPhones = async(req: Request, res: Response) => {
-  const phones = await productService.getAllByCategory(Category.ACCESSORIES);
+  const phones = await productService.getAllByCategory(Category.PHONES);
 
   res.send(phones);
 };
