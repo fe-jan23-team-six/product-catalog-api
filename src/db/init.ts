@@ -1,30 +1,23 @@
 import { Sequelize } from 'sequelize-typescript';
-import { Product } from '../models/Product';
-
-// eslint-disable-next-line max-len
-const URI = 'postgresql://lipikhin.serhii:dm8pMHI5Ycig@ep-dry-fog-719936.eu-central-1.aws.neon.tech/neondb';
+import { developmentConfig, productionConfig } from '../config';
+import { setModels } from './setModels';
 
 export const initDb = async() => {
-  // const sequelize = new Sequelize('postgres', 'postgres', '133043', {
-  //   models: [
-  //     Product,
-  //   ],
-  //   host: 'localhost',
-  //   dialect: 'postgres',
-  //   logging: false,
-  // });
+  let sequelize;
 
-  const sequelize = new Sequelize(
-    URI,
-    {
-      models: [
-        Product,
-      ],
-      dialectOptions: {
-        ssl: true,
-      },
-    },
-  );
+  if (process.env.NODE_ENV === 'production') {
+    setModels(productionConfig);
+
+    const { uri, options } = productionConfig;
+
+    sequelize = new Sequelize(uri, options);
+  } else {
+    setModels(developmentConfig);
+
+    const { database, username, password, options } = developmentConfig;
+
+    sequelize = new Sequelize(database, username, password, options);
+  }
 
   try {
     sequelize.authenticate({ logging: false });

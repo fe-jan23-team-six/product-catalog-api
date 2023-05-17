@@ -1,9 +1,8 @@
 import { initDb } from './init';
 import { Product } from '../models/Product';
 import fs from 'fs';
-import path from 'path';
 
-const DATA_LOCATION = path.resolve(__dirname, '../json/products.json');
+const DATA_LOCATION = new URL('../json/phones.json', import.meta.url);
 
 const syncDb = async() => {
   global.console.log('START');
