@@ -1,16 +1,20 @@
-import fs from 'fs';
 import { initDb } from './init';
 import { Product } from '../models/Product';
 import { IProduct } from '../types/IProduct';
-
-const DATA_LOCATION = new URL('../json/phones.json', import.meta.url);
+import {
+  readPhonesSync,
+  readTabletsSync,
+  readAccessoriesSync,
+} from '../utils/helpers';
 
 const syncDb = async() => {
   global.console.log('START');
 
-  const products: Readonly<IProduct>[] = JSON.parse(
-    fs.readFileSync(DATA_LOCATION, 'utf8'),
-  );
+  const phones: Readonly<IProduct>[] = readPhonesSync();
+  const tablets: Readonly<IProduct>[] = readTabletsSync();
+  const accessories: Readonly<IProduct>[] = readAccessoriesSync();
+
+  const products = [...phones, ...tablets, ...accessories];
 
   const sequelize = await initDb();
 
