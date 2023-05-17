@@ -2,11 +2,13 @@ import { NextFunction, Request, Response } from 'express';
 
 import productService from '../services/product';
 import { SortBy } from '../types/SortBy';
+import { getAmount as countAmount } from '../utils/helpers';
 
-export const getAllAmount = async(req: Request, res: Response) => {
+export const getAmount = async(req: Request, res: Response) => {
   const products = await productService.getAll();
+  const amount = countAmount(products);
 
-  res.send({ 'amount': `${products.length}` });
+  res.send(amount);
 };
 
 export const getAll = async(req: Request, res: Response) => {
@@ -75,7 +77,7 @@ export const getProductsWithDiscounts = async(req: Request, res: Response) => {
 };
 
 export default {
-  getAllAmount,
+  getAmount,
   getAll,
   getOne,
   getOneBySlug,
