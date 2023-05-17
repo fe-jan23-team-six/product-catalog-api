@@ -1,10 +1,14 @@
 // EXECUTION: ts-node --esm ./src/normalize/normalize.ts
 import fs from 'fs';
-import path from 'path';
+import path, { dirname } from 'path';
 import { IProductInitial } from '../types/initial/IProductInitial';
 import { IProductDetailsInitial }
   from '../types/initial/IProductDetailsInitial';
 import { IProduct } from '../types/IProduct';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const PRODUCTS_LOCATION = path.resolve(__dirname, '../json/phones.json');
 const DETAILS_LOCATION = path.resolve(__dirname, '../json/phones');

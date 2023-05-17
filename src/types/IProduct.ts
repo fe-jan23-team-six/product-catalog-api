@@ -10,8 +10,8 @@ export interface IProductDetails {
   description: IDescription[];
   resolution: string;
   processor: string;
-  camera: string;
-  zoom: string;
+  camera: string | null;
+  zoom: string | null;
   cell: string[];
 }
 
