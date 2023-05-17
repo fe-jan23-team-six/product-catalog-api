@@ -1,25 +1,11 @@
-import { NextFunction, Request, Response } from 'express';
+import { Request, Response } from 'express';
 
 import productService from '../services/product';
-import { SortBy } from '../types/SortBy';
 import { getAmount as countAmount } from '../utils/helpers';
-
-export const getAmount = async(req: Request, res: Response) => {
-  const products = await productService.getAll();
-  const amount = countAmount(products);
-
-  res.send(amount);
-};
+import { Category } from '../types/Categories';
 
 export const getAll = async(req: Request, res: Response) => {
-  const {
-    page = 1,
-    limit = 16,
-    sort = SortBy.Default,
-  } = req.query;
-
-  const products = await productService
-    .getSrtuctured(+page, +limit, sort as SortBy);
+  const products = await productService.getAll();
 
   res.send(products);
 };
@@ -27,15 +13,8 @@ export const getAll = async(req: Request, res: Response) => {
 export const getOne = async(
   req: Request,
   res: Response,
-  next: NextFunction,
 ) => {
-  const productId = Number(req.params.productId);
-
-  if (isNaN(productId)) {
-    next();
-
-    return;
-  }
+  const { productId } = req.params;
 
   const foundProduct = await productService.getById(productId);
 
@@ -48,39 +27,82 @@ export const getOne = async(
   res.send(foundProduct);
 };
 
-export const getOneBySlug = async(req: Request, res: Response) => {
-  const { productSlug } = req.params;
+export const getPhones = async(req: Request, res: Response) => {
+  const phones = await productService.getAllByCategory(Category.ACCESSORIES);
 
-  const [foundProduct] = await productService.getBySlug(productSlug);
+  res.send(phones);
+};
 
-  if (!foundProduct) {
-    res.sendStatus(404);
+export const getTablets = async(req: Request, res: Response) => {
+  const tablets = await productService.getAllByCategory(Category.TABLETS);
+
+  res.send(tablets);
+};
+
+export const getAccessories = async(req: Request, res: Response) => {
+  const accessories
+    = await productService.getAllByCategory(Category.ACCESSORIES);
+
+  res.send(accessories);
+};
+
+export const getAmount = async(req: Request, res: Response) => {
+  const products = await productService.getAll();
+  const amount = countAmount(products);
+
+  res.send(amount);
+};
+
+// export const getAll = async(req: Request, res: Response) => {
+//   const {
+//     page = 1,
+//     limit = 16,
+//     sort = SortBy.Default,
+//   } = req.query;
+
+//   const products = await productService
+//     .getSrtuctured(+page, +limit, sort as SortBy);
+
+//   res.send(products);
+// };
+
+export const getNew = async(req: Request, res: Response) => {
+  const { limit = 10 } = req.query;
+  const limitNumber = Number(limit);
+
+  if (isNaN(limitNumber)) {
+    res.sendStatus(400);
 
     return;
   }
 
-  res.send(foundProduct);
-};
-
-export const getNew = async(req: Request, res: Response) => {
-  const { limit = 10 } = req.query;
-  const products = await productService.getNew(+limit);
+  const products = await productService.getNew(limitNumber);
 
   return res.send(products);
 };
 
 export const getProductsWithDiscounts = async(req: Request, res: Response) => {
   const { limit = 10 } = req.query;
-  const products = await productService.getProductsWithDiscounts(+limit);
+  const limitNumber = Number(limit);
+
+  if (isNaN(limitNumber)) {
+    res.sendStatus(400);
+
+    return;
+  }
+
+  const products = await productService.getProductsWithDiscounts(limitNumber);
 
   return res.send(products);
 };
 
 export default {
   getAmount,
+  getPhones,
+  getTablets,
+  getAccessories,
   getAll,
   getOne,
-  getOneBySlug,
   getNew,
   getProductsWithDiscounts,
 };
