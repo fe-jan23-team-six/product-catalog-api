@@ -3,6 +3,7 @@ import { IProduct } from '../types/IProduct';
 import { Product } from '../models/Product';
 import { Amount } from '../types/Amount';
 import { Category } from '../types/Categories';
+import { SortBy } from '../types/SortBy';
 
 export const readPhonesSync = (): Readonly<IProduct>[] => (
   JSON.parse(
@@ -56,4 +57,18 @@ export const getDiscountPercent = ({
   const discountPercent = 100 - priceDiscount * 100 / priceRegular;
 
   return discountPercent;
+};
+
+export const getOrder = (sort: SortBy) => {
+  switch (sort) {
+    case SortBy.Newest:
+      return ['year', 'DESC'];
+
+    case SortBy.Cheapest:
+      return ['priceDiscount', 'ASC'];
+
+    case SortBy.Alphabetically:
+    default:
+      return ['name', 'DESC'];
+  }
 };
