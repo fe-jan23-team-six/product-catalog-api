@@ -4,6 +4,7 @@ import { getDiscountPercent } from '../utils/getDiscountPercent';
 import { getOrder } from '../utils/getOrder';
 import { Category } from '../types/Categories';
 import { SortBy } from '../types/SortBy';
+import { Op, OrderItem } from 'sequelize';
 
 export async function getAll() {
   return Product.findAll();
@@ -51,10 +52,40 @@ export async function getProductsWithDiscounts(limit: number) {
   return allProducts.slice(0, limit);
 }
 
+export const getRecomended = async(productId: string) => {
+  const product = await getById(productId);
+  const price = product?.priceDiscount || 500;
+  const color = productId.split('-').slice(-1);
+
+  const coefficient = 0.1; // can be changed
+  const priceRange = [price - price * coefficient, price + price * coefficient];
+
+  const recomendedPrice = await Product.findAll({
+    where: {
+      priceDiscount: {
+        [Op.between]: priceRange,
+      },
+    },
+    limit: 5,
+  });
+
+  const recomendedColor = await Product.findAll({
+    where: {
+      id: {
+        [Op.like]: `%${color}%`,
+      },
+    },
+    limit: 5,
+  });
+
+  return [...recomendedPrice, ...recomendedColor];
+};
+
 export default {
   getAll,
   getById,
   getPageByCategory,
   getNew,
   getProductsWithDiscounts,
+  getRecomended,
 };

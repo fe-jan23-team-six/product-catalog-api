@@ -14,3 +14,4 @@ router.get('/new', productController.getNew);
 router.get('/discount', productController.getProductsWithDiscounts);
 
 router.get('/:productId', productController.getOne);
+router.get('/:productId/recomended', productController.getRecomended);

@@ -138,6 +138,28 @@ export const getAmount = async(req: Request, res: Response) => {
   res.send(amount);
 };
 
+export const getRecomended = async(req: Request, res: Response) => {
+  const { productId } = req.params;
+
+  if (!productId) {
+    res.sendStatus(400);
+
+    return;
+  }
+
+  const product = await productService.getById(productId);
+
+  if (!product) {
+    res.sendStatus(404);
+
+    return;
+  }
+
+  const recomended = await productService.getRecomended(productId);
+
+  res.send(recomended);
+};
+
 export default {
   getAmount,
   getPhones,
@@ -147,4 +169,5 @@ export default {
   getOne,
   getNew,
   getProductsWithDiscounts,
+  getRecomended,
 };
