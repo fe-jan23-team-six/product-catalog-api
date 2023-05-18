@@ -1,5 +1,7 @@
+import { OrderItem } from 'sequelize';
 import { Product } from '../models/Product';
-import { getDiscountPercent, getOrder } from '../utils/helpers';
+import { getDiscountPercent } from '../utils/getDiscountPercent';
+import { getOrder } from '../utils/getOrder';
 import { Category } from '../types/Categories';
 import { SortBy } from '../types/SortBy';
 import { Op, OrderItem } from 'sequelize';

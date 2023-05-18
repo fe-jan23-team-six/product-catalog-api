@@ -10,6 +10,7 @@ export interface IProduct {
   screen: string,
   capacity: string,
   ram: string,
+  productCode: string,
   color: string,
   year: number,
   image: string;

@@ -5,7 +5,7 @@ import {
   readPhonesSync,
   readTabletsSync,
   readAccessoriesSync,
-} from '../utils/helpers';
+} from '../utils/readProductData';
 
 const syncDb = async() => {
   global.console.log('START');
