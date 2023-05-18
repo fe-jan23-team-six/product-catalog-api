@@ -66,6 +66,12 @@ export class Product extends Model {
   })
     ram: string;
 
+  @AllowNull(true)
+  @Column({
+    type: DataTypes.STRING,
+  })
+    productCode: string;
+
   @AllowNull(false)
   @Column({
     type: DataTypes.STRING,

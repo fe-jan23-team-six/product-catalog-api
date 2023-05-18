@@ -57,7 +57,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "925236"
   },
   {
     "id": "apple-ipad-pro-11-2021-256gb-spacegray",
@@ -117,7 +118,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "995791"
   },
   {
     "id": "apple-ipad-pro-11-2021-512gb-spacegray",
@@ -177,7 +179,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "827669"
   },
   {
     "id": "apple-ipad-pro-11-2021-1tb-spacegray",
@@ -237,7 +240,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "014828"
   },
   {
     "id": "apple-ipad-pro-11-2021-2tb-spacegray",
@@ -297,7 +301,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "886355"
   },
   {
     "id": "apple-ipad-pro-11-2021-128gb-silver",
@@ -357,7 +362,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "916342"
   },
   {
     "id": "apple-ipad-pro-11-2021-256gb-silver",
@@ -417,7 +423,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "445429"
   },
   {
     "id": "apple-ipad-pro-11-2021-512gb-silver",
@@ -477,7 +484,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "962820"
   },
   {
     "id": "apple-ipad-pro-11-2021-1tb-silver",
@@ -537,7 +545,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "042323"
   },
   {
     "id": "apple-ipad-pro-11-2021-2tb-silver",
@@ -597,10 +606,11 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "340540"
   },
   {
-    "id": "apple-ipad-air-4th-gen-256gb-rose-gold",
+    "id": "apple-ipad-air-4th-gen-256gb-rosegold",
     "namespaceId": "apple-ipad-air-4th-gen",
     "category": "tablets",
     "name": "Apple iPad Air (4th Gen) 256GB Rose Gold",
@@ -609,24 +619,24 @@
     "screen": "10.9' Liquid Retina",
     "capacity": "256GB",
     "ram": "4GB",
-    "color": "rose gold",
+    "color": "rosegold",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
+    "image": "img/tablets/apple-ipad-air-4th-gen/rosegold/00.webp",
     "capacityAvailable": [
       "64GB",
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/01.webp",
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/02.webp",
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/03.webp"
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/03.webp"
     ],
     "description": [
       {
@@ -657,10 +667,11 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "026028"
   },
   {
-    "id": "apple-ipad-air-4th-gen-64gb-rose-gold",
+    "id": "apple-ipad-air-4th-gen-64gb-rosegold",
     "namespaceId": "apple-ipad-air-4th-gen",
     "category": "tablets",
     "name": "Apple iPad Air (4th Gen) 64GB Rose Gold",
@@ -669,24 +680,24 @@
     "screen": "10.9' Liquid Retina",
     "capacity": "64GB",
     "ram": "4GB",
-    "color": "rose gold",
+    "color": "rosegold",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
+    "image": "img/tablets/apple-ipad-air-4th-gen/rosegold/00.webp",
     "capacityAvailable": [
       "64GB",
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/01.webp",
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/02.webp",
-      "img/tablets/apple-ipad-air-4th-gen/rose-gold/03.webp"
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/rosegold/03.webp"
     ],
     "description": [
       {
@@ -717,7 +728,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "619082"
   },
   {
     "id": "apple-ipad-air-4th-gen-64gb-silver",
@@ -737,10 +749,10 @@
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
       "img/tablets/apple-ipad-air-4th-gen/silver/00.webp",
@@ -777,7 +789,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "071289"
   },
   {
     "id": "apple-ipad-air-4th-gen-256gb-silver",
@@ -797,10 +810,10 @@
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
       "img/tablets/apple-ipad-air-4th-gen/silver/00.webp",
@@ -837,7 +850,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "417260"
   },
   {
     "id": "apple-ipad-air-4th-gen-256gb-green",
@@ -857,10 +871,10 @@
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
       "img/tablets/apple-ipad-air-4th-gen/green/00.webp",
@@ -897,7 +911,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "816002"
   },
   {
     "id": "apple-ipad-air-4th-gen-64gb-green",
@@ -917,10 +932,10 @@
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
       "img/tablets/apple-ipad-air-4th-gen/green/00.webp",
@@ -957,10 +972,11 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "940607"
   },
   {
-    "id": "apple-ipad-air-4th-gen-64gb-sky-blue",
+    "id": "apple-ipad-air-4th-gen-64gb-skyblue",
     "namespaceId": "apple-ipad-air-4th-gen",
     "category": "tablets",
     "name": "Apple iPad Air (4th Gen) 64GB Sky Blue",
@@ -969,24 +985,24 @@
     "screen": "10.9' Liquid Retina",
     "capacity": "64GB",
     "ram": "4GB",
-    "color": "sky blue",
+    "color": "skyblue",
     "year": 2025,
-    "image": "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
+    "image": "img/tablets/apple-ipad-air-4th-gen/skyblue/00.webp",
     "capacityAvailable": [
       "64GB",
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/01.webp",
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/02.webp",
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/03.webp"
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/03.webp"
     ],
     "description": [
       {
@@ -1017,10 +1033,11 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "916772"
   },
   {
-    "id": "apple-ipad-air-4th-gen-256gb-sky-blue",
+    "id": "apple-ipad-air-4th-gen-256gb-skyblue",
     "namespaceId": "apple-ipad-air-4th-gen",
     "category": "tablets",
     "name": "Apple iPad Air (4th Gen) 256GB Sky Blue",
@@ -1029,24 +1046,24 @@
     "screen": "10.9' Liquid Retina",
     "capacity": "256GB",
     "ram": "4GB",
-    "color": "sky blue",
+    "color": "skyblue",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
+    "image": "img/tablets/apple-ipad-air-4th-gen/skyblue/00.webp",
     "capacityAvailable": [
       "64GB",
       "256GB"
     ],
     "colorsAvailable": [
-      "rose gold",
+      "rosegold",
       "silver",
       "green",
-      "sky blue"
+      "skyblue"
     ],
     "images": [
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/01.webp",
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/02.webp",
-      "img/tablets/apple-ipad-air-4th-gen/sky-blue/03.webp"
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/skyblue/03.webp"
     ],
     "description": [
       {
@@ -1077,7 +1094,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "154579"
   },
   {
     "id": "apple-ipad-mini-6th-gen-64gb-spacegray",
@@ -1135,7 +1153,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "966912"
   },
   {
     "id": "apple-ipad-mini-6th-gen-256gb-spacegray",
@@ -1193,7 +1212,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "865451"
   },
   {
     "id": "apple-ipad-mini-6th-gen-256gb-starlight",
@@ -1251,7 +1271,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "026582"
   },
   {
     "id": "apple-ipad-mini-6th-gen-64gb-starlight",
@@ -1309,7 +1330,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "171487"
   },
   {
     "id": "apple-ipad-mini-6th-gen-64gb-pink",
@@ -1367,7 +1389,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "891595"
   },
   {
     "id": "apple-ipad-mini-6th-gen-256gb-pink",
@@ -1425,7 +1448,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "026675"
   },
   {
     "id": "apple-ipad-10-2-2020-128gb-gold",
@@ -1484,7 +1508,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "608427"
   },
   {
     "id": "apple-ipad-10-2-2020-32gb-gold",
@@ -1543,7 +1568,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "063677"
   },
   {
     "id": "apple-ipad-10-2-2020-32gb-silver",
@@ -1602,7 +1628,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "631859"
   },
   {
     "id": "apple-ipad-10-2-2020-128gb-silver",
@@ -1661,7 +1688,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "561382"
   },
   {
     "id": "apple-ipad-10-2-2020-128gb-spacegray",
@@ -1720,7 +1748,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "151095"
   },
   {
     "id": "apple-ipad-10-2-2020-32gb-spacegray",
@@ -1779,7 +1808,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "777521"
   },
   {
     "id": "apple-ipad-mini-5th-gen-256gb-silver",
@@ -1836,7 +1866,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "094466"
   },
   {
     "id": "apple-ipad-mini-5th-gen-64gb-silver",
@@ -1893,7 +1924,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "242712"
   },
   {
     "id": "apple-ipad-mini-5th-gen-64gb-spacegray",
@@ -1950,7 +1982,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "437750"
   },
   {
     "id": "apple-ipad-mini-5th-gen-256gb-spacegray",
@@ -2007,7 +2040,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "539623"
   },
   {
     "id": "apple-ipad-mini-5th-gen-256gb-gold",
@@ -2064,7 +2098,8 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "303748"
   },
   {
     "id": "apple-ipad-mini-5th-gen-64gb-gold",
@@ -2121,6 +2156,7 @@
     "zoom": "Digital zoom up to 5x",
     "cell": [
       "Not applicable"
-    ]
+    ],
+    "productCode": "649634"
   }
 ]

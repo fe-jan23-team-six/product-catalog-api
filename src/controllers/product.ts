@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 import productService from '../services/product';
-import { getAmount as countAmount } from '../utils/helpers';
+import { getAmount as countAmount } from '../utils/getAmount';
 import { Category } from '../types/Categories';
 import { SortBy } from '../types/SortBy';
 

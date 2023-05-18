@@ -60,7 +60,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "702045"
   },
   {
     "id": "apple-iphone-7-plus-32gb-black",
@@ -123,7 +124,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "707860"
   },
   {
     "id": "apple-iphone-8-64gb-gold",
@@ -184,7 +186,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "178957"
   },
   {
     "id": "apple-iphone-11-64gb-black",
@@ -251,7 +254,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "529485"
   },
   {
     "id": "apple-iphone-11-128gb-yellow",
@@ -318,7 +322,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "669629"
   },
   {
     "id": "apple-iphone-11-256gb-green",
@@ -385,7 +390,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "836168"
   },
   {
     "id": "apple-iphone-11-pro-64gb-gold",
@@ -448,7 +454,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "025012"
   },
   {
     "id": "apple-iphone-11-pro-256gb-midnightgreen",
@@ -512,7 +519,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "803693"
   },
   {
     "id": "apple-iphone-11-pro-512gb-silver",
@@ -575,7 +583,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "539698"
   },
   {
     "id": "apple-iphone-11-pro-max-64gb-spacegray",
@@ -638,7 +647,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "168044"
   },
   {
     "id": "apple-iphone-11-pro-max-256gb-gold",
@@ -701,7 +711,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "160054"
   },
   {
     "id": "apple-iphone-11-pro-max-512gb-spacegray",
@@ -764,7 +775,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "720652"
   },
   {
     "id": "apple-iphone-xr-64gb-red",
@@ -828,7 +840,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "140847"
   },
   {
     "id": "apple-iphone-xr-128gb-white",
@@ -892,7 +905,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "479957"
   },
   {
     "id": "apple-iphone-xs-64gb-spacegray",
@@ -954,7 +968,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "071515"
   },
   {
     "id": "apple-iphone-xs-max-64gb-gold",
@@ -1017,7 +1032,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "560677"
   },
   {
     "id": "apple-iphone-xs-max-256gb-silver",
@@ -1080,7 +1096,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "021038"
   },
   {
     "id": "apple-iphone-7-32gb-gold",
@@ -1143,7 +1160,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "074765"
   },
   {
     "id": "apple-iphone-7-plus-32gb-silver",
@@ -1206,7 +1224,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "458513"
   },
   {
     "id": "apple-iphone-8-64gb-spacegray",
@@ -1267,7 +1286,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "884395"
   },
   {
     "id": "apple-iphone-11-64gb-green",
@@ -1334,7 +1354,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "066817"
   },
   {
     "id": "apple-iphone-11-128gb-purple",
@@ -1401,7 +1422,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "560297"
   },
   {
     "id": "apple-iphone-11-256gb-yellow",
@@ -1468,7 +1490,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "067674"
   },
   {
     "id": "apple-iphone-11-pro-256gb-gold",
@@ -1531,7 +1554,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "345141"
   },
   {
     "id": "apple-iphone-11-pro-512gb-spacegray",
@@ -1594,7 +1618,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "344351"
   },
   {
     "id": "apple-iphone-11-pro-max-64gb-silver",
@@ -1657,7 +1682,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "816130"
   },
   {
     "id": "apple-iphone-11-pro-max-256gb-midnightgreen",
@@ -1720,7 +1746,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "770142"
   },
   {
     "id": "apple-iphone-11-pro-max-512gb-silver",
@@ -1783,7 +1810,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "455774"
   },
   {
     "id": "apple-iphone-xr-64gb-white",
@@ -1847,7 +1875,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "966824"
   },
   {
     "id": "apple-iphone-xr-128gb-coral",
@@ -1911,7 +1940,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "086907"
   },
   {
     "id": "apple-iphone-xs-64gb-gold",
@@ -1973,7 +2003,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "021751"
   },
   {
     "id": "apple-iphone-xs-256gb-spacegray",
@@ -2035,7 +2066,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "291550"
   },
   {
     "id": "apple-iphone-xs-max-64gb-silver",
@@ -2098,7 +2130,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "852744"
   },
   {
     "id": "apple-iphone-xs-max-256gb-gold",
@@ -2161,7 +2194,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "063907"
   },
   {
     "id": "apple-iphone-7-32gb-rosegold",
@@ -2224,7 +2258,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "630271"
   },
   {
     "id": "apple-iphone-11-64gb-purple",
@@ -2291,7 +2326,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "007019"
   },
   {
     "id": "apple-iphone-11-64gb-red",
@@ -2358,7 +2394,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "173801"
   },
   {
     "id": "apple-iphone-11-128gb-black",
@@ -2425,7 +2462,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "360875"
   },
   {
     "id": "apple-iphone-11-256gb-red",
@@ -2492,7 +2530,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "841422"
   },
   {
     "id": "apple-iphone-11-pro-64gb-midnightgreen",
@@ -2556,7 +2595,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "236820"
   },
   {
     "id": "apple-iphone-11-pro-256gb-silver",
@@ -2619,7 +2659,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "252673"
   },
   {
     "id": "apple-iphone-11-pro-512gb-gold",
@@ -2682,7 +2723,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "178209"
   },
   {
     "id": "apple-iphone-11-pro-max-64gb-midnightgreen",
@@ -2745,7 +2787,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "812228"
   },
   {
     "id": "apple-iphone-11-pro-max-256gb-spacegray",
@@ -2808,7 +2851,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "148949"
   },
   {
     "id": "apple-iphone-xr-64gb-coral",
@@ -2870,7 +2914,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "529305"
   },
   {
     "id": "apple-iphone-xr-128gb-red",
@@ -2934,7 +2979,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "176979"
   },
   {
     "id": "apple-iphone-xs-256gb-gold",
@@ -2996,7 +3042,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "058607"
   },
   {
     "id": "apple-iphone-xs-max-64gb-spacegray",
@@ -3059,7 +3106,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "263685"
   },
   {
     "id": "apple-iphone-7-plus-32gb-rosegold",
@@ -3122,7 +3170,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "750816"
   },
   {
     "id": "apple-iphone-11-64gb-white",
@@ -3189,7 +3238,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "970650"
   },
   {
     "id": "apple-iphone-11-128gb-green",
@@ -3256,7 +3306,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "484497"
   },
   {
     "id": "apple-iphone-11-128gb-white",
@@ -3323,7 +3374,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "004264"
   },
   {
     "id": "apple-iphone-11-256gb-black",
@@ -3390,7 +3442,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "864721"
   },
   {
     "id": "apple-iphone-11-256gb-white",
@@ -3457,7 +3510,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "126181"
   },
   {
     "id": "apple-iphone-11-pro-64gb-spacegray",
@@ -3520,7 +3574,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "443961"
   },
   {
     "id": "apple-iphone-11-pro-512gb-midnightgreen",
@@ -3584,7 +3639,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "867669"
   },
   {
     "id": "apple-iphone-11-pro-max-64gb-gold",
@@ -3647,7 +3703,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "312825"
   },
   {
     "id": "apple-iphone-11-pro-max-256gb-silver",
@@ -3710,7 +3767,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "905396"
   },
   {
     "id": "apple-iphone-11-pro-max-512gb-midnightgreen",
@@ -3773,7 +3831,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "374412"
   },
   {
     "id": "apple-iphone-xr-128gb-yellow",
@@ -3837,7 +3896,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "189710"
   },
   {
     "id": "apple-iphone-7-32gb-silver",
@@ -3900,7 +3960,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "050408"
   },
   {
     "id": "apple-iphone-11-256gb-purple",
@@ -3967,7 +4028,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "880521"
   },
   {
     "id": "apple-iphone-11-pro-max-512gb-gold",
@@ -4030,7 +4092,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "940042"
   },
   {
     "id": "apple-iphone-11-64gb-yellow",
@@ -4097,7 +4160,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "977200"
   },
   {
     "id": "apple-iphone-11-pro-256gb-spacegray",
@@ -4160,7 +4224,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "512121"
   },
   {
     "id": "apple-iphone-8-64gb-silver",
@@ -4221,7 +4286,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "550784"
   },
   {
     "id": "apple-iphone-11-128gb-red",
@@ -4288,7 +4354,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "006597"
   },
   {
     "id": "apple-iphone-xs-max-256gb-spacegray",
@@ -4351,7 +4418,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "483072"
   },
   {
     "id": "apple-iphone-7-plus-32gb-gold",
@@ -4414,7 +4482,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "678104"
   },
   {
     "id": "apple-iphone-11-pro-64gb-silver",
@@ -4477,7 +4546,8 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "570380"
   },
   {
     "id": "apple-iphone-xr-64gb-yellow",
@@ -4541,6 +4611,7 @@
       "UMTS",
       "HSPA",
       "LTE"
-    ]
+    ],
+    "productCode": "537009"
   }
 ]
