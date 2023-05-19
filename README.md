@@ -1,7 +1,11 @@
 # product-catalog-api
 
 ## Get all products
-    GET: /products/?page=number&limit=number&sort=string
+    GET: products/phones/?page=number&limit=number&sort=string
+    
+    GET: product/tablets/?page=number&limit=number&sort=string
+    
+    GET: product/accessories/?page=number&limit=number&sort=string
 
 Where: 
 
@@ -10,7 +14,6 @@ Where:
 >  ```limit=16``` by default
 
 > ```sort=name``` by default, **Avaliable: (newest, oldest, price-lowest)**
-
 
 ## Get product by Id
     GET: /products/:productId
@@ -28,6 +31,12 @@ Where:
   Where:
   
   > ```limit=10``` by default
+
+## Get recomended products
+    GET: /products/:productId/recomended
+    
+## Get products amount
+    GET: /products/amount
 
 
 
